@@ -1,0 +1,57 @@
+/* This CSS resource incorporates links to font software which is the valuable copyrighted property of Webtype LLC and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Webtype with any questions regarding Web Fonts:  http://www.webtype.com */
+@font-face {
+  font-family: 'GarageGothic-Bold';
+  src: url("../fonts/GarageGothicForIf-Bold.eot");
+  src: url("../fonts/GarageGothicForIf-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GarageGothicForIf-Bold.woff") format("woff"), url("../fonts/GarageGothicForIf-Bold.ttf") format("truetype"), url("../fonts/GarageGothicForIf-Bold#GarageGothicForIf-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Handsome-Regular';
+  src: url("../fonts/HandsomeProForIf-Regular.eot");
+  src: url("../fonts/HandsomeProForIf-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/HandsomeProForIf-Regular.woff") format("woff"), url("../fonts/HandsomeProForIf-Regular.ttf") format("truetype"), url("../fonts/HandsomeProForIf-Regular.svg#HandsomeProForIf-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bliss-Regular';
+  src: url("../fonts/bliss_regular.eot");
+  src: url("../fonts/bliss_regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bliss_regular.woff") format("woff"), url("../fonts/bliss_regular.ttf") format("truetype"), url("../fonts/bliss_regular.svg#Bliss-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'If-icons';
+  src: url("../fonts/if-icons.eot");
+  src: url("../fonts/if-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/if-icons.woff") format("woff"), url("../fonts/if-icons.ttf") format("truetype"), url("../fonts/if-icons.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-regular-webfont.eot");
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-semibold-webfont.eot");
+  src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-bold-webfont.eot");
+  src: url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/opensans-light-webfont.eot");
+  src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype"), url("../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}

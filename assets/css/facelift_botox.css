@@ -1,0 +1,359 @@
+@import url('fonts.css');
+@import url('icons.css');
+@import url('form.css');
+html{}
+body{
+  font-size: 87.5%;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  background: none;
+}
+a{
+  text-decoration: none;
+  color: #3399ff;
+}
+a:hover{
+  text-decoration: underline;
+}
+h1,h2{
+  font-size: 30px;
+  margin: 0 0 0.5em;
+}
+h2{
+  font-size: 20px;
+}
+p{
+  margin: 0 0 1em;
+}
+img{
+  border: none;
+}
+body.noframes{
+  background: none;
+}
+#page-wrapper{
+  overflow: hidden;
+}
+#container{
+  width: 990px;
+  padding: 0 20px;
+}
+#header{
+  text-align: center;
+}
+#header hr{
+  margin: 0 -999em 20px;
+  background: #d9d9d9;
+  height: 1px;
+  border: none;
+}
+.language-links{
+  margin: 20px;
+  padding: 0;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.language-links li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.language-links a{
+  color: #a5a5a5;
+}
+.language-links a.selected{
+  color: #333;
+}
+#globalSearchForm{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 20px;
+}
+
+#menuMainSearch{
+  position: relative;
+  margin: 20px 0;
+}
+#globalSearchForm input,
+#menuMainSearch input{
+  line-height: 30px;
+  height: 30px;
+  border-radius: 15px;
+  padding-right: 30px;
+  width: 100%;
+  outline: none;
+}
+
+#globalSearchForm input:focus,
+#menuMainSearch input:focus{
+  border-color: #a5a5a5;
+}
+#menuMainSearch [type=reset]{
+  display: none;
+}
+#globalSearchForm [type=submit],
+#menuMainSearch [type=submit]{
+  line-height: 26px;
+  height: 26px;
+  width: 26px;
+  text-align: center;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: none;
+  border: none;
+  border-radius: 26px;
+  color: #a5a5a5;
+}
+#globalSearchForm [type=submit]:hover,
+#menuMainSearch [type=submit]:hover,
+#globalSearchForm [type=submit]:focus,
+#menuMainSearch [type=submit]:focus{
+  color: #333;
+}
+#globalSearchForm [type=submit]:before,
+#menuMainSearch [type=submit]:before{
+  content: "\e003";
+  font-family: "If-icons";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 26px;
+}
+/*<group=Left Menu>*/
+#nav {
+	float: left;
+  padding-right: 30px;
+	vertical-align:top;
+	margin:0;
+	width:220px;
+}
+#nav a{
+  text-decoration: none;
+  color: #202020;
+}
+/*body.noframes #nav {
+	padding-left:10px;
+}*/
+
+#nav .hidden {
+	display:none;
+}
+#nav .dbTitle {
+	background-repeat: no-repeat;
+	background-position: .25em 0.6em;
+  padding: 10px 20px;
+  background: #ffe49c;
+  border-bottom: 1px solid #d9d9d9;
+}
+#nav .dbTitle.expand {
+	background-image: url("/ifcmtool/resource.nsf/menu/leftMenuDartDownBold.gif");
+}
+#nav .dbTitle.collapse {
+	background-image: url("/ifcmtool/resource.nsf/menu/leftMenuDartLeftBold.gif");
+	margin-top:10px;
+	}
+
+#nav .dbTitle.expand.oneLevelExpanded {
+	background-image: url(/ifcmtool/resource.nsf/icons/nav-minus.png);
+	background-position: 2px 6px;
+	}
+#nav .dbTitle.collapse.oneLevelExpanded {
+	background-image: url(/ifcmtool/resource.nsf/icons/nav-plus.png);
+	background-position: 2px 6px;
+	}
+
+#nav .dbTitle a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+  font-size: 14.5px;
+}
+
+#nav .dbTitleGreen  {
+	background-color: #d0e6c3;
+}
+#nav .dbTitleGray  {
+	background-color: #f4f4f4;
+}
+#nav .dbTitleLogoBlue,
+#nav .dbTitleBlue  {
+	background-color: #b6d8df;
+}
+#nav .dbTitleBlack  {
+  background-color: #333333;
+  color: #fff;
+}
+/*<group=Menu TreeView>*/
+
+.menuTreeView,
+.menuTreeView ul {
+	padding: 0;
+	margin: 0;
+	display: block;
+  color:
+}
+.menuTreeView li{
+  list-style: none;
+  padding: 7px 20px;
+  margin: 0;
+}
+.menuTreeView li a{
+  margin: -7px -20px;
+  padding: 7px 20px;
+  border-bottom: 1px solid #d9d9d9;
+  background: #f2f2f2;
+  display: block;
+  color: inherit;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+}
+.menuTreeView .l1 a{
+  padding-left: 30px
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f2f2f2;
+}
+.menuTreeView .l2 a{
+  padding-left: 40px
+  border-bottom-color: #d0d0d0;
+  color: #595959;
+  background-color: #e7e7e7;
+}
+.menuTreeView .l3 a{
+  padding-left: 50px
+  background-color: #cfcfcf;
+  color: #666;
+}
+.menuTreeView .l4 a{
+  padding-left: 60px
+}
+.menuTreeView .sel > a,
+.menuTreeView .ssel > a{
+  font-weight: bold;
+}
+.menuTreeView .ex > a,
+.menuTreeView .co > a{
+  padding-right: 30px;
+}
+.menuTreeView .ex > a:before,
+.menuTreeView .co > a:before{
+  content: "\e016"; /* Arrow-down */
+  font-family: "If-icons";
+  speak: none;
+  position: absolute;
+  font-size: 12px;
+  width: 1em;
+  right: 1em;
+  text-align:center;
+}
+.menuTreeView .co > a:before{
+  content: "\e013"; /* Arrow-up*/
+}
+
+#content{
+  display: block;
+  overflow: hidden;
+  max-width: none;
+  width: auto;
+  margin: 0;
+}
+#titleBar{
+  max-width: none;
+  width: auto;
+}
+#titleLine h1{
+  font-family: 'GarageGothic-Bold', 'Open-sans', arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1;
+}
+/*<group=InfoBox>*/
+
+#RightColImageFlash {
+	margin-bottom: 20px;
+}
+
+#attachmentTable,
+.infobox{
+  border: 1px solid #d9d9d9;
+  background: none;
+  padding: 15px;
+  clear: both;
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+#attachmentTable h1,
+.infobox h1{
+  font-family: 'GarageGothic-Bold', 'Open-sans', arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 25px;
+  background: none;
+  font-size: 20px;
+  color: inherit;
+}
+
+
+/*<group=Attachment table>*/
+
+#attachmentTable ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 100%;
+	}
+
+#attachmentTable.attachColumn1 div.attachCategories {
+	display:inline-block;
+	width:100%;
+	}
+#attachmentTable.attachColumn2 div.attachCategories {
+	display:inline-block;
+	width:49%;
+	}
+#attachmentTable.attachColumn3 div.attachCategories {
+	display:inline-block;
+	width:32%;
+	}
+#attachmentTable.attachColumn4 div.attachCategories {
+	display:inline-block;
+	width:24%;
+	}
+
+#attachmentTable ul li {
+	padding: .5em .2em .5em 1.7em;
+	margin:0;
+	}
+
+#attachmentTable ul li a {
+	background-image: none;
+	padding-left:0;
+	word-wrap: break-word;
+	}
+
+#attachmentTable div.attachNoCategories {
+	display:block;
+	width:100%;
+	}
+#attachmentTable.attachColumn1 div.attachNoCategories ul li {
+	display:inline-block;
+	width:100%
+	}
+#attachmentTable.attachColumn2 div.attachNoCategories ul li {
+	width:45%;
+	float:left;
+	}
+#attachmentTable.attachColumn3 div.attachNoCategories ul li {
+	width:29%;
+	float:left;
+	}
+#attachmentTable.attachColumn4 div.attachNoCategories ul li {
+	width:20%;
+	float:left;
+}

@@ -1,0 +1,432 @@
+.theme-bg-lightgreen {
+  background-color: #d0e6c3;
+}
+.theme-bg-lightgreen.theme-bg-opaque {
+  background-color: rgba(208, 230, 195, 0.3);
+}
+.theme-bg-lightgreen.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-lightgreen.theme-bg-darken {
+  background-color: #98c87b;
+}
+.theme-bg-green {
+  background-color: #b4ded3;
+}
+.theme-bg-green.theme-bg-opaque {
+  background-color: rgba(180, 222, 211, 0.3);
+}
+.theme-bg-green.theme-bg-lighten {
+  background-color: #fbfdfd;
+}
+.theme-bg-green.theme-bg-darken {
+  background-color: #6dbfa9;
+}
+.theme-bg-darkgreen {
+  background-color: #76bbb2;
+}
+.theme-bg-darkgreen.theme-bg-opaque {
+  background-color: rgba(118, 187, 178, 0.3);
+}
+.theme-bg-darkgreen.theme-bg-lighten {
+  background-color: #baddd8;
+}
+.theme-bg-darkgreen.theme-bg-darken {
+  background-color: #43887f;
+}
+.theme-bg-pink {
+  background-color: #f8c6db;
+}
+.theme-bg-pink.theme-bg-opaque {
+  background-color: rgba(248, 198, 219, 0.3);
+}
+.theme-bg-pink.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-pink.theme-bg-darken {
+  background-color: #ed6ba2;
+}
+.theme-bg-darkpink {
+  background-color: #f169a2;
+}
+.theme-bg-darkpink.theme-bg-opaque {
+  background-color: rgba(241, 105, 162, 0.3);
+}
+.theme-bg-darkpink.theme-bg-lighten {
+  background-color: #fac6dc;
+}
+.theme-bg-darkpink.theme-bg-darken {
+  background-color: #df156a;
+}
+.theme-bg-lightblue {
+  background-color: #b6d8df;
+}
+.theme-bg-lightblue.theme-bg-opaque {
+  background-color: rgba(182, 216, 223, 0.3);
+}
+.theme-bg-lightblue.theme-bg-lighten {
+  background-color: #fdfefe;
+}
+.theme-bg-lightblue.theme-bg-darken {
+  background-color: #6fb2c0;
+}
+.theme-bg-blue {
+  background-color: #68aad5;
+}
+.theme-bg-blue.theme-bg-opaque {
+  background-color: rgba(104, 170, 213, 0.3);
+}
+.theme-bg-blue.theme-bg-lighten {
+  background-color: #b8d7eb;
+}
+.theme-bg-blue.theme-bg-darken {
+  background-color: #2f78a8;
+}
+.theme-bg-darkblue {
+  background-color: #083b5c;
+}
+.theme-bg-darkblue.theme-bg-opaque {
+  background-color: rgba(8, 59, 92, 0.3);
+}
+.theme-bg-darkblue.theme-bg-lighten {
+  background-color: #1077ba;
+}
+.theme-bg-darkblue.theme-bg-darken {
+  background-color: black;
+}
+.theme-bg-lightgray {
+  background-color: #f4f4f4;
+}
+.theme-bg-lightgray.theme-bg-opaque {
+  background-color: rgba(244, 244, 244, 0.3);
+}
+.theme-bg-lightgray.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-lightgray.theme-bg-darken {
+  background-color: #c1c1c1;
+}
+.theme-bg-gray {
+  background-color: #d9d9d9;
+}
+.theme-bg-gray.theme-bg-opaque {
+  background-color: rgba(217, 217, 217, 0.3);
+}
+.theme-bg-gray.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-gray.theme-bg-darken {
+  background-color: #a6a6a6;
+}
+.theme-bg-darkgray {
+  background-color: #999999;
+}
+.theme-bg-darkgray.theme-bg-opaque {
+  background-color: rgba(153, 153, 153, 0.3);
+}
+.theme-bg-darkgray.theme-bg-lighten {
+  background-color: #cccccc;
+}
+.theme-bg-darkgray.theme-bg-darken {
+  background-color: #666666;
+}
+.theme-bg-brown {
+  background-color: #cfac92;
+}
+.theme-bg-brown.theme-bg-opaque {
+  background-color: rgba(207, 172, 146, 0.3);
+}
+.theme-bg-brown.theme-bg-lighten {
+  background-color: #eee2d9;
+}
+.theme-bg-brown.theme-bg-darken {
+  background-color: #ae764d;
+}
+.theme-bg-darkbrown {
+  background-color: #96877d;
+}
+.theme-bg-darkbrown.theme-bg-opaque {
+  background-color: rgba(150, 135, 125, 0.3);
+}
+.theme-bg-darkbrown.theme-bg-lighten {
+  background-color: #c4bbb5;
+}
+.theme-bg-darkbrown.theme-bg-darken {
+  background-color: #60554d;
+}
+.theme-bg-yellow {
+  background-color: #ffe49c;
+}
+.theme-bg-yellow.theme-bg-opaque {
+  background-color: rgba(255, 228, 156, 0.3);
+}
+.theme-bg-yellow.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-yellow.theme-bg-darken {
+  background-color: #ffc836;
+}
+.theme-bg-white {
+  background-color: white;
+}
+.theme-bg-white.theme-bg-opaque {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.theme-bg-white.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-white.theme-bg-darken {
+  background-color: #cccccc;
+}
+.theme-bg-black {
+  background-color: black;
+}
+.theme-bg-black.theme-bg-opaque {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.theme-bg-black.theme-bg-lighten {
+  background-color: #333333;
+}
+.theme-bg-black.theme-bg-darken {
+  background-color: black;
+}
+.theme-bg-dark {
+  background-color: #333333;
+}
+.theme-bg-dark.theme-bg-opaque {
+  background-color: rgba(51, 51, 51, 0.3);
+}
+.theme-bg-dark.theme-bg-lighten {
+  background-color: #666666;
+}
+.theme-bg-dark.theme-bg-darken {
+  background-color: black;
+}
+.theme-bg-orange {
+  background-color: #f7ebe3;
+}
+.theme-bg-orange.theme-bg-opaque {
+  background-color: rgba(247, 235, 227, 0.3);
+}
+.theme-bg-orange.theme-bg-lighten {
+  background-color: white;
+}
+.theme-bg-orange.theme-bg-darken {
+  background-color: #e0b294;
+}
+.theme-color-lightgreen {
+  color: #d0e6c3;
+}
+.theme-color-lightgreen.theme-color-opaque {
+  color: rgba(208, 230, 195, 0.3);
+}
+.theme-color-lightgreen.theme-color-lighten {
+  color: white;
+}
+.theme-color-lightgreen.theme-color-darken {
+  color: #98c87b;
+}
+.theme-color-green {
+  color: #b4ded3;
+}
+.theme-color-green.theme-color-opaque {
+  color: rgba(180, 222, 211, 0.3);
+}
+.theme-color-green.theme-color-lighten {
+  color: #fbfdfd;
+}
+.theme-color-green.theme-color-darken {
+  color: #6dbfa9;
+}
+.theme-color-darkgreen {
+  color: #76bbb2;
+}
+.theme-color-darkgreen.theme-color-opaque {
+  color: rgba(118, 187, 178, 0.3);
+}
+.theme-color-darkgreen.theme-color-lighten {
+  color: #baddd8;
+}
+.theme-color-darkgreen.theme-color-darken {
+  color: #43887f;
+}
+.theme-color-pink {
+  color: #f8c6db;
+}
+.theme-color-pink.theme-color-opaque {
+  color: rgba(248, 198, 219, 0.3);
+}
+.theme-color-pink.theme-color-lighten {
+  color: white;
+}
+.theme-color-pink.theme-color-darken {
+  color: #ed6ba2;
+}
+.theme-color-darkpink {
+  color: #f169a2;
+}
+.theme-color-darkpink.theme-color-opaque {
+  color: rgba(241, 105, 162, 0.3);
+}
+.theme-color-darkpink.theme-color-lighten {
+  color: #fac6dc;
+}
+.theme-color-darkpink.theme-color-darken {
+  color: #df156a;
+}
+.theme-color-lightblue {
+  color: #b6d8df;
+}
+.theme-color-lightblue.theme-color-opaque {
+  color: rgba(182, 216, 223, 0.3);
+}
+.theme-color-lightblue.theme-color-lighten {
+  color: #fdfefe;
+}
+.theme-color-lightblue.theme-color-darken {
+  color: #6fb2c0;
+}
+.theme-color-blue {
+  color: #68aad5;
+}
+.theme-color-blue.theme-color-opaque {
+  color: rgba(104, 170, 213, 0.3);
+}
+.theme-color-blue.theme-color-lighten {
+  color: #b8d7eb;
+}
+.theme-color-blue.theme-color-darken {
+  color: #2f78a8;
+}
+.theme-color-darkblue {
+  color: #083b5c;
+}
+.theme-color-darkblue.theme-color-opaque {
+  color: rgba(8, 59, 92, 0.3);
+}
+.theme-color-darkblue.theme-color-lighten {
+  color: #1077ba;
+}
+.theme-color-darkblue.theme-color-darken {
+  color: black;
+}
+.theme-color-lightgray {
+  color: #f4f4f4;
+}
+.theme-color-lightgray.theme-color-opaque {
+  color: rgba(244, 244, 244, 0.3);
+}
+.theme-color-lightgray.theme-color-lighten {
+  color: white;
+}
+.theme-color-lightgray.theme-color-darken {
+  color: #c1c1c1;
+}
+.theme-color-gray {
+  color: #d9d9d9;
+}
+.theme-color-gray.theme-color-opaque {
+  color: rgba(217, 217, 217, 0.3);
+}
+.theme-color-gray.theme-color-lighten {
+  color: white;
+}
+.theme-color-gray.theme-color-darken {
+  color: #a6a6a6;
+}
+.theme-color-darkgray {
+  color: #999999;
+}
+.theme-color-darkgray.theme-color-opaque {
+  color: rgba(153, 153, 153, 0.3);
+}
+.theme-color-darkgray.theme-color-lighten {
+  color: #cccccc;
+}
+.theme-color-darkgray.theme-color-darken {
+  color: #666666;
+}
+.theme-color-brown {
+  color: #cfac92;
+}
+.theme-color-brown.theme-color-opaque {
+  color: rgba(207, 172, 146, 0.3);
+}
+.theme-color-brown.theme-color-lighten {
+  color: #eee2d9;
+}
+.theme-color-brown.theme-color-darken {
+  color: #ae764d;
+}
+.theme-color-darkbrown {
+  color: #96877d;
+}
+.theme-color-darkbrown.theme-color-opaque {
+  color: rgba(150, 135, 125, 0.3);
+}
+.theme-color-darkbrown.theme-color-lighten {
+  color: #c4bbb5;
+}
+.theme-color-darkbrown.theme-color-darken {
+  color: #60554d;
+}
+.theme-color-yellow {
+  color: #ffe49c;
+}
+.theme-color-yellow.theme-color-opaque {
+  color: rgba(255, 228, 156, 0.3);
+}
+.theme-color-yellow.theme-color-lighten {
+  color: white;
+}
+.theme-color-yellow.theme-color-darken {
+  color: #ffc836;
+}
+.theme-color-white {
+  color: white;
+}
+.theme-color-white.theme-color-opaque {
+  color: rgba(255, 255, 255, 0.3);
+}
+.theme-color-white.theme-color-lighten {
+  color: white;
+}
+.theme-color-white.theme-color-darken {
+  color: #cccccc;
+}
+.theme-color-black {
+  color: black;
+}
+.theme-color-black.theme-color-opaque {
+  color: rgba(0, 0, 0, 0.3);
+}
+.theme-color-black.theme-color-lighten {
+  color: #333333;
+}
+.theme-color-black.theme-color-darken {
+  color: black;
+}
+.theme-color-dark {
+  color: #333333;
+}
+.theme-color-dark.theme-color-opaque {
+  color: rgba(51, 51, 51, 0.3);
+}
+.theme-color-dark.theme-color-lighten {
+  color: #666666;
+}
+.theme-color-dark.theme-color-darken {
+  color: black;
+}
+.theme-color-orange {
+  color: #f7ebe3;
+}
+.theme-color-orange.theme-color-opaque {
+  color: rgba(247, 235, 227, 0.3);
+}
+.theme-color-orange.theme-color-lighten {
+  color: white;
+}
+.theme-color-orange.theme-color-darken {
+  color: #e0b294;
+}

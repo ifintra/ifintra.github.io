@@ -1,0 +1,348 @@
+a.ecmt-icon {
+  cursor: pointer;
+}
+a.ecmt-icon:hover {
+  text-decoration: none;
+}
+
+.ecmt-icon-twitter:before {
+  content: "\e001";
+}
+
+.ecmt-icon-mail:before {
+  content: "\e007";
+}
+
+.ecmt-icon-youtube:before {
+  content: "\e000";
+}
+
+.ecmt-icon-arrow-up:before {
+  content: "\e013";
+}
+
+.ecmt-icon-listview:before {
+  content: "\e009";
+}
+
+.ecmt-icon-arrow-left:before {
+  content: "\e015";
+}
+
+.ecmt-icon-imageview:before {
+  content: "\e00b";
+}
+
+.ecmt-icon-menu:before {
+  content: "\e006";
+}
+
+.ecmt-icon-checkmark:before {
+  content: "\e012";
+}
+
+.ecmt-icon-arrow-right:before {
+  content: "\e014";
+}
+
+.ecmt-icon-help:before {
+  content: "\e00d";
+}
+
+.ecmt-icon-google:before {
+  content: "\e00e";
+}
+
+.ecmt-icon-kundtjanst:before {
+  content: "\e00a";
+}
+
+.ecmt-icon-checkmark_filled:before {
+  content: "\e011";
+}
+
+.ecmt-icon-if-logo:before {
+  content: "\e00c";
+}
+
+.ecmt-icon-more:before {
+  content: "\e005";
+}
+
+.ecmt-icon-facebook:before {
+  content: "\e00f";
+}
+
+.ecmt-icon-login:before {
+  content: "\e008";
+}
+
+.ecmt-icon-skadehantering:before {
+  content: "\e002";
+}
+
+.ecmt-icon-close:before {
+  content: "\e010";
+}
+
+.ecmt-icon-arrow-down:before {
+  content: "\e016";
+}
+
+.ecmt-icon-print:before {
+  content: "\e004";
+}
+
+.ecmt-icon-search:before {
+  content: "\e003";
+}
+
+.ecmt-icon {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  text-indent: -999em;
+  direction: ltr;
+  border: none;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  padding: 0 !important;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  font-style: normal;
+}
+.ecmt-icon.theme-blue {
+  color: #68aad5;
+}
+.ecmt-icon.theme-blue.icon--filled:before {
+  background-color: #68aad5;
+  color: #fff;
+}
+.ecmt-icon.theme-lightblue {
+  color: #b6d8df;
+}
+.ecmt-icon.theme-lightblue.icon--filled:before {
+  background-color: #b6d8df;
+  color: #fff;
+}
+.ecmt-icon.theme-darkblue {
+  color: #083b5c;
+}
+.ecmt-icon.theme-darkblue.icon--filled:before {
+  background-color: #083b5c;
+  color: #fff;
+}
+.ecmt-icon.theme-lightgreen {
+  color: #d0e6c3;
+}
+.ecmt-icon.theme-lightgreen.icon--filled:before {
+  background-color: #d0e6c3;
+  color: #fff;
+}
+.ecmt-icon.theme-green {
+  color: #b4ded3;
+}
+.ecmt-icon.theme-green.icon--filled:before {
+  background-color: #b4ded3;
+  color: #fff;
+}
+.ecmt-icon.theme-darkgreen {
+  color: #76bbb2;
+}
+.ecmt-icon.theme-darkgreen.icon--filled:before {
+  background-color: #76bbb2;
+  color: #fff;
+}
+.ecmt-icon.theme-pink {
+  color: #f8c6db;
+}
+.ecmt-icon.theme-pink.icon--filled:before {
+  background-color: #f8c6db;
+  color: #fff;
+}
+.ecmt-icon.theme-darkpink {
+  color: #f169a2;
+}
+.ecmt-icon.theme-darkpink.icon--filled:before {
+  background-color: #f169a2;
+  color: #fff;
+}
+.ecmt-iconbefore:before, .ecmt-icon:before {
+  font-family: "If-icons";
+  speak: none;
+  position: absolute;
+  text-indent: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.ecmt-iconbefore:before {
+  display: inline-block;
+  position: relative;
+  left: auto;
+  right: auto;
+  width: 1.5em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.ecmt-icon-is-rounded:before {
+  border-radius: 10em;
+}
+.ecmt-icon-is-filled:before {
+  background: #cfac92;
+}
+.ecmt-icon-is-bordered:before {
+  border: 1px solid #eee;
+}
+.ecmt-icon-is-padded {
+  margin: 0 5px;
+}
+.ecmt-icon-middle {
+  vertical-align: middle;
+}
+.ecmt-icon-is-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+.ecmt-icon-small {
+  font-size: 1em;
+}
+.ecmt-icon-big {
+  font-size: 1.8em;
+}
+.ecmt-icon-big:before {
+  font-size: 0.8em;
+}
+.ecmt-icon-bigger {
+  font-size: 2.5em;
+}
+.ecmt-icon-bigger:before {
+  font-size: 0.8em;
+}
+.ecmt-icon-mega {
+  font-size: 8em;
+  height: 1em;
+  width: 1em;
+  line-height: 1em;
+}
+.ecmt-icon-not-desktop.ecmt-iconbefore:before, .ecmt-icon-not-desktop.ecmt-icon {
+  display: none;
+}
+@media (max-width: 980px) {
+  body:not(.nonRWD) .ecmt-icon-not-desktop.ecmt-iconbefore:before, body:not(.nonRWD) .ecmt-icon-not-desktop.ecmt-icon {
+    display: inline-block;
+  }
+}
+@media (min-width: 661px) and (max-width: 980px) {
+  body:not(.nonRWD) .ecmt-icon-not-tablet.ecmt-iconbefore:before, body:not(.nonRWD) .ecmt-icon-not-tablet.ecmt-icon {
+    display: none;
+  }
+}
+@media (max-width: 660px) {
+  body:not(.nonRWD) .ecmt-icon-not-mobile.ecmt-iconbefore:before, body:not(.nonRWD) .ecmt-icon-not-mobile.ecmt-icon {
+    display: none;
+  }
+}
+.ecmt-icon-arrow-down.ecmt-toggler-active:before {
+  content: "\e013";
+}
+
+/* .icon.l-centered,
+.iconbefore.l-centered:before{
+    margin: 0 auto;
+}
+.icon.icon--block,
+.iconbefore.icon--block:before,
+.iconafter.icon--block:after{
+    display: block;
+}
+
+.icon-if-logo:before{
+    content: "\e00a";
+}
+.icon-login:before{
+    content: "\e006";
+}
+.icon-menu:before{
+    content: "\e005";
+}
+.icon-imageview:before{
+    content: "\e009";
+    font-size: 0.8em;
+}
+.icon-listview:before{
+    content: "\e007";
+    font-size: 0.8em;
+}
+.icon-facebook:before{
+    content: "\e00b";
+}
+.icon-twitter:before{
+    content: "\e001";
+}
+.icon-youtube:before{
+    content: "\e000";
+}
+.icon-kundtjanst:before{
+    content: "\e008";
+}
+.icon-skadehantering:before{
+    content: "\e002";
+}
+.icon-checkmark:before{
+    content: "\e00c";
+}
+.icon-chevrondown:before{
+    content: "\e004";
+    text-align: center;
+}
+.ecmt-details-show .icon-chevrondown:before{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.icon-chevron:before{
+    content: "\e004";
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.ecmt-details-show .icon-chevron:before{
+    vertical-align: middle;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.icon-search:before{
+    content: "\e003";
+    font-size: 0.7em;
+    width: 32px;
+    height: 32px;
+    line-height: 2em;
+}
+.icon-toggler:before{
+    content: "\25BE";
+}
+.icon-toggler.Toggle-active:before{
+    content: "\25B4";
+}
+.icon-arrowdown:before{
+    content: "\e00e";
+}
+.icon-arrowup:before,
+.ecmt-details-show .icon-arrowdown:before{
+    content: "\e00d";
+} */
