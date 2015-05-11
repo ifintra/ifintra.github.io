@@ -7,13 +7,12 @@ input[type="color"],
 input[type="time"],
 input[type="url"],
 input[type="search"],
-select,
 textarea {
   display: block;
   -webkit-appearance: none;
   line-height: 20px;
-  height: 45px;
-  padding: 10px 15px;
+  height: 35px;
+  padding: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -30,6 +29,14 @@ textarea {
   margin: 0;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+}
+select{
+  line-height: 20px;
+  height: 35px;
+  padding: 10px 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 textarea {
   min-height: 60px;
@@ -57,4 +64,33 @@ input::-ms-placeholder {
 input::input-placeholder {
   color: #a5a5a5;
   opacity: 1;
+}
+
+span.button{
+  background: none;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+}
+button,
+.button,
+[type=button],
+[type=submit],
+span.button input {
+  cursor: pointer;
+  background: #76bbb2;
+  border: none;
+  font-weight: normal;
+  padding: 5px 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  height: 40px;
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  width: auto;
+  display: inline-block;
+  overflow: visible;
+  font-family: Open-sans, sans-serif;
 }

@@ -1,0 +1,25 @@
+.link-list{
+  margin: 0 0 20px;
+  padding: 0;
+}
+.link-list li{
+  list-style: none;
+  padding: 0;
+  margin: 2px 0;
+}
+.link-list a{
+  display: block;
+}
+.inline-link-list{
+  margin: 0 -5px;
+  padding: 0;
+}
+.inline-link-list li{
+  list-style: none;
+  padding: 0 5px;
+  margin: 0;
+  display: inline-block;
+}
+.inline-link-list a{
+  display: block;
+}

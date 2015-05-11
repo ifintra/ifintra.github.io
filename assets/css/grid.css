@@ -1,0 +1,79 @@
+.grid-wrapper{
+  overflow: hidden;
+}
+.grid{
+  box-sizing: border-box;
+  letter-spacing: -5px;
+  margin: 0 -10px;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.grid-cell{
+  letter-spacing: 0;
+  padding: 0 10px 20px;
+  display: inline-block;
+  vertical-align:top;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrik: 0;
+}
+.width-1of5{
+  flex-basis: 20%;
+  max-width: 20%;
+  width: 20%;
+}
+.width-1of4{
+  flex-basis: 25%;
+  max-width: 25%;
+  width: 25%;
+}
+.width-1of3{
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+  width: 33.33%;
+}
+.width-2of5{
+  flex-basis: 40%;
+  max-width: 40%;
+  width: 40%;
+}
+.width-2of4,
+.width-1of2{
+  flex-basis: 50%;
+  max-width: 50%;
+  width: 50%;
+}
+.width-3of5{
+  flex-basis: 60%;
+  max-width: 60%;
+  width: 60%;
+}
+.width-2of3{
+  flex-basis: 66.66%;
+  max-width: 66.66%;
+  width: 66.66%;
+}
+.width-3of4{
+  flex-basis: 75%;
+  max-width: 75%;
+  width: 75%;
+}
+.width-4of5{
+  flex-basis: 80%;
+  max-width: 80%;
+  width: 80%;
+}
+.width-1of1,
+.width-2of2,
+.width-3of3,
+.width-4of4,
+.width-5of5{
+  flex-basis: 100%;
+  max-width: 100%;
+  width: 100%;
+}
