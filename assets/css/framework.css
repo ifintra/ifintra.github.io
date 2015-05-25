@@ -15,7 +15,8 @@ body{
   margin: 0;
   width: auto;
 }
-body.noframes{
+body.noframes,
+body.oldie{
   background: none;
 }
 a,
