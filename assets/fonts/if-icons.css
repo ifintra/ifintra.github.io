@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'If-icons';
-	src:url('if-icons.eot?ynljkh');
-	src:url('if-icons.eot?#iefixynljkh') format('embedded-opentype'),
-		url('if-icons.woff?ynljkh') format('woff'),
-		url('if-icons.ttf?ynljkh') format('truetype'),
-		url('if-icons.svg?ynljkh#If-icons') format('svg');
+	src:url('fonts/If-icons.eot?ynljkh');
+	src:url('fonts/If-icons.eot?#iefixynljkh') format('embedded-opentype'),
+		url('fonts/If-icons.woff?ynljkh') format('woff'),
+		url('fonts/If-icons.ttf?ynljkh') format('truetype'),
+		url('fonts/If-icons.svg?ynljkh#If-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
