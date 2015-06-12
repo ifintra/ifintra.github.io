@@ -1,3 +1,4 @@
+input[readonly],
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -12,7 +13,7 @@ textarea {
   -webkit-appearance: none;
   line-height: 20px;
   height: 35px;
-  padding: 10px;
+  padding: 0 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -21,7 +22,7 @@ textarea {
   background: rgba(255,255,255,0.9); */
   font-family: "Open Sans", Arial, sans-serif;
   max-width: 100%;
-  font-size: 1em;
+  font-size: 12px;
   -webkit-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -33,10 +34,16 @@ textarea {
 select{
   line-height: 20px;
   height: 35px;
-  padding: 10px 5px;
+  padding: 5px 5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Open Sans", Arial, sans-serif;
+  max-width: 100%;
+  font-size: 12px;
+  border: 1px solid #d9d9d9;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
 textarea {
   min-height: 60px;
@@ -81,16 +88,21 @@ span.button input {
   background: #76bbb2;
   border: none;
   font-weight: normal;
-  padding: 5px 30px;
+  padding: 0 20px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  height: 40px;
+  height: 30px;
   color: #fff;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   width: auto;
   display: inline-block;
   overflow: visible;
   font-family: Open-sans, sans-serif;
+}
+input[type=checkbox],
+input[type=radio]{
+  margin: 0 3px 3px 0;
+  vertical-align: middle;
 }

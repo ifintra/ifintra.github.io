@@ -9,265 +9,113 @@ img.ocStatus {
 	}
 
 .rssFeedsSmall {
-	background-image: url(/ifcmtool/resource.nsf/icons/rss-14x14.gif);
-	background-position: left center;
-	background-repeat: no-repeat;
-	padding: 2px 0 1px 18px;
-	}
-
-table.tableYellow,
-table.tableBlue,
-table.tableGreen,
-table.tableBrown,
-table.tableGray {
-	text-align: left;
-	font-size: 11px;
-	border-collapse: collapse;
-	}
-
-.tableYellow > caption,
-.tableYellow > thead > tr > td,
-.tableYellow > thead > tr > th,
-.tableBlue > caption,
-.tableBlue > thead > tr > td,
-.tableBlue > thead > tr > th,
-.tableGreen > caption,
-.tableGreen > thead > tr > td,
-.tableGreen > thead > tr > th,
-.tableBrown > caption,
-.tableBrown > thead > tr > td,
-.tableBrown > thead > tr > th,
-.tableGray > caption,
-.tableGray > thead > tr > td,
-.tableGray > thead > tr > th	{
-	color: #333333;
+	padding: 0 0 0 16px;
+}
+.rssFeedsSmall:before{
+	font-family: "If-icons";
+	content: "\e607";
+	speak: none;
+	color: #ff8534;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	direction: ltr;
+	border: none;
+	vertical-align: baseline;
+	position: absolute;
+	margin-left: -16px;
 	font-size: 12px;
+}
+table{
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table caption,
+table thead td,
+table th{
+	color: inherit;
 	font-weight: bold;
 	line-height: 1.8em;
-	padding: 0 .5em;
+	padding: 5px 7px;
 	text-align: left;
-	}
+}
+table td{
+	padding: 0;
+}
+.tableYellow td,
+.tableBlue td,
+.tableGreen td,
+.tableBrown td,
+.tableGray td,
+.tableNeutral td{
+	padding: 5px 7px;
+}
+.tableYellow {
+	background-color: rgba(255, 228, 156, 0.1);
+	border: 1px solid #ffe49c;
+}
+.tableYellow caption,
+.tableYellow thead td,
+.tableYellow thead th {
+	background-color: #ffe49c;
+}
+.tableBlue {
+	background-color: rgba(182, 216, 223, 0.1);
+	border: 1px solid #b6d8df;
+}
 
-.tableYellow > tbody > tr > td,
-.tableBlue > tbody > tr > td,
-.tableGreen > tbody > tr > td,
-.tableBrown > tbody > tr > td,
-.tableGray > tbody > tr > td {
-	padding: .5em;
-	}
-
-.tableYellow input,
-.tableYellow input[type="text"],
-.tableYellow textarea,
-.tableYellow select,
-.tableBlue input,
-.tableBlue input[type="text"],
-.tableBlue textarea,
-.tableBlue select,
-.tableGreen input,
-.tableGreen input[type="text"],
-.tableGreen textarea,
-.tableGreen select,
-.tableBrown input,
-.tableBrown input[type="text"],
-.tableBrown textarea,
-.tableBrown select,
-.tableGray input,
-.tableGray input[type="text"],
-.tableGray textarea,
-.tableGray select{
-	background-color: #fff;
-	}
-
-table.tableYellow {
-	background-color: #ffe380;
-	border-color: #ffd500;
-	}
-
-.tableYellow > caption,
-.tableYellow > thead > tr > td,
-.tableYellow > thead > tr > th {
-	background-color: #ffd500;
-	border: 1px solid #ffd500;
-	}
-
-.tableYellow > thead > tr > td,
-.tableYellow > tbody > tr > td {
-	border: 1px solid #ffd500;
-	}
-
-.tableYellow input,
-.tableYellow input[type="text"],
-.tableYellow textarea,
-.tableYellow select {
-	border-color: #ffd500;
-	}
-
-.tableYellow .tableRowEven input[type="button"],
-.tableYellow .tableRowEven input[type="reset"],
-.tableYellow .tableRowEven input[type="submit"] {
-	background-color: #ffe380;
-	}
-
-table.tableBlue {
-	background-color: #a8dff7;
-	border-color: #68cef2;
-	}
-
-.tableBlue > caption,
-.tableBlue > thead > tr > td,
-.tableBlue > thead > tr > th {
-	background-color: #68cef2;
-	border: 1px solid #68cef2;
-	}
-
-.tableBlue > thead > tr > td,
-.tableBlue > tbody > tr > td {
-	border: 1px solid #68cef2;
-	}
-
-.tableBlue input,
-.tableBlue input[type="text"],
-.tableBlue textarea,
-.tableBlue select {
-	border-color: #68cef2;
-	}
-
-.tableBlue .tableRowEven input[type="button"],
-.tableBlue .tableRowEven input[type="reset"],
-.tableBlue .tableRowEven input[type="submit"] {
-	background-color: #a8dff7;
-	}
-
-table.tableGreen {
-	background-color: #e2edd9;
-	border-color: #a0c382;
-	}
+.tableBlue caption,
+.tableBlue thead td,
+.tableBlue thead th {
+	background-color: #b6d8df;
+}
+.tableGreen {
+	background-color: rgba(208, 230, 195, 0.1);
+	border: 1px solid #d0e6c3;
+}
 
 .tableGreen caption,
-.tableGreen thead > tr > td,
-.tableGreen thead > tr > th {
-	background-color: #a0c382;
-	border: 1px solid #a0c382;
-	}
-
-.tableGreen > thead > tr > td,
-.tableGreen > tbody > tr > td {
-	border: 1px solid #a0c382;
-	}
-
-.tableGreen input,
-.tableGreen input[type="text"],
-.tableGreen textarea,
-.tableGreen select {
-	border-color: #a0c382;
-	}
-
-.tableGreen .tableRowEven input[type="button"],
-.tableGreen .tableRowEven input[type="reset"],
-.tableGreen .tableRowEven input[type="submit"] {
-	background-color: #e2edd9;
-	}
-
-table.tableBrown {
-	background-color: #ebe5dc;
-	border-color: #ccb28a;
-	}
+.tableGreen thead td,
+.tableGreen thead th {
+	background-color: #d0e6c3;
+}
+.tableBrown {
+	background-color: rgba(207, 172, 146, 0.1);
+	border: 1px solid #cfac92;
+}
 
 .tableBrown caption,
-.tableBrown thead > tr > td,
-.tableBrown thead > tr > th {
-	background-color: #ccb28a;
-	border: 1px solid #ccb28a;
-	}
-
-.tableBrown > thead > tr > td,
-.tableBrown > tbody > tr > td {
-	border: 1px solid #ccb28a;
-	}
-
-.tableBrown input,
-.tableBrown input[type="text"],
-.tableBrown textarea,
-.tableBrown select {
-	border-color: #ccb28a;
-	}
-
-.tableBrown .tableRowEven input[type="button"],
-.tableBrown .tableRowEven input[type="reset"],
-.tableBrown .tableRowEven input[type="submit"] {
-	background-color: #ebe5dc;
-	}
-
-table.tableGray {
-	background-color: #eeeee8;
-	border-color: #c8c8b4;
-	}
-
+.tableBrown thead td,
+.tableBrown thead th {
+	background-color: #cfac92;
+}
+.tableGray {
+	background-color: rgba(217, 217, 217, 0.1);
+	border: 1px solid #d9d9d9;
+}
 .tableGray caption,
-.tableGray thead > tr > td,
-.tableGray thead > tr > th {
-	background-color: #c8c8b4;
-	border: 1px solid #c8c8b4;
-	}
+.tableGray thead td,
+.tableGray thead th {
+	background-color: #d9d9d9;
+}
 
-.tableGray > thead > tr > td,
-.tableGray > tbody > tr > td {
-	border: 1px solid #c8c8b4;
-	}
-
-.tableGray input,
-.tableGray input[type="text"],
-.tableGray textarea,
-.tableGray select {
-	border-color: #c8c8b4;
-	}
-
-.tableGray .tableRowEven input[type="button"],
-.tableGray .tableRowEven input[type="reset"],
-.tableGray .tableRowEven input[type="submit"] {
-	background-color: #eeeee8;
-	}
-
-table.tableNeutral,
-table.tableNeutralLeftHeader {
-	border-bottom: 3px solid #ecf3ee;
-	background-color: #ecf3ee;
-	font-size:.916em;
-	}
-table.tableNeutral > caption,
-table.tableNeutralLeftHeader > caption {
-	vertical-align: top;
-	background-color: #ecf3ee;
-	text-align:left;
-	}
-
-.tableNeutral > caption,
-.tableNeutral > thead > tr > td,
-.tableNeutral > thead > tr > th,
-.tableNeutralLeftHeader > caption,
-.tableNeutralLeftHeader > thead > tr > td,
-.tableNeutralLeftHeader > thead > tr > th {
-	padding: 3px 5px;
-	font-weight: 700;
-	border-bottom: 1px solid #cfe2d4;
-	text-align: left;
-	}
-
-.tableNeutral > thead > tr > td,
-.tableNeutral > tbody > tr > td,
-.tableNeutralLeftHeader > thead > tr > td,
-.tableNeutralLeftHeader > tbody > tr > td {
-	padding: 3px 5px;
-	}
-
-.tableNeutralLeftHeader > thead > tr > td:first-child,
-.tableNeutralLeftHeader > tbody > tr > td:first-child {
-	padding: 3px 5px;
-	font-weight: 700;
-	border-right: 1px solid #cfe2d4;
-	}
-
+.tableNeutral caption,
+.tableNeutral thead td,
+.tableNeutral thead th {
+	background-color: #e9e9e9;
+	border: 1px solid #e9e9e9;
+}
+.tableNeutral tbody tr{
+	border-bottom: 1px solid #e9e9e9;
+}
+.tableNeutral tbody tr:last-child{
+	border-bottom: 1px solid #e9e9e9;
+}
 .tableYellow tbody tr:nth-child(odd),
 .tableBlue tbody tr:nth-child(odd),
 .tableGreen tbody tr:nth-child(odd),
@@ -279,7 +127,10 @@ table.tableNeutralLeftHeader > caption {
 	}
 
 .highLight {
-	margin: 2em auto;
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 20px;
+	padding: 0 0 10px;
+/*	margin: 2em auto;
 	padding: 1.4em 2em;
 	width: 80%;
 	letter-spacing: 0.1em;
@@ -287,8 +138,8 @@ table.tableNeutralLeftHeader > caption {
 	border-color: #efefef;
 	border-width: 0.3em;
 	text-align: center
-	}
-
+	*/
+}
 /* clean up old highLight table */
 td.highLight {
 	border: none;
@@ -353,25 +204,61 @@ dl.definitionListToggle {
 	}
 
 dl.definitionListToggle dt {
-	background: transparent url("/ifcmtool/resource.nsf/menu/leftMenuDartDown.gif") no-repeat left center;
 	padding-left:1em;
 	cursor:pointer;
-	color: #2882BE;
-	}
+	color: inherit;
+	border: 1px solid #e9e9e9;
+	border-width: 1px 1px 0 1px;
+	padding: 10px 30px 10px 15px;
+	position: relative;
+	margin: 0;
+	min-height: 1.15em;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+dl.definitionListToggle dt.inactive{
+	border-width: 1px 1px 1px 1px;
+	margin: 0 0 -1px;
+}
+dl.definitionListToggle dt:after{
+	font-family: "if-icons";
+	content: "\e610";
+  speak: none;
+  color: #999;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  direction: ltr;
+  border: none;
+  vertical-align: middle;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
 
-dl.definitionListToggle dt:hover {
-	color: #68cef2;
-	text-decoration: underline;
-	}
-
-dl.definitionListToggle dt.inactive {
-	background: transparent url("/ifcmtool/resource.nsf/menu/leftMenuDartLeft.gif") no-repeat left center;
-	padding-left:1em;
-	}
+dl.definitionListToggle dt.inactive:after {
+	content: "\e60d";
+}
 
 dl.definitionListToggle dd {
-	padding:.5em 0;
-	}
+	padding: 10px 15px;
+	border: 1px solid #e9e9e9;
+	border-top: none;
+	margin: 0 0 10px;
+	font-size: 14px;
+	display: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+dl.definitionListToggle dt + dd {
+	display: block;
+}
 
 .definitionListToggle .inactive + dd {
 	display: none;
@@ -416,7 +303,10 @@ dl.definitionListToggle dd {
 	}
 
 /*<group=Bottom Toolbar>*/
-
+#footer{
+ 	clear: both;
+	padding-top: 30px;
+}
 #footer hr  {
 	border-style: solid none none none;
 	border-width:1px 0 0 0;
@@ -431,7 +321,8 @@ dl.definitionListToggle dd {
 #bottomToolBar {
 	display: table;
 	font-size: 12px;
-	width:100%
+	width:100%;
+	margin: 15px 0;
 	}
 
 
@@ -447,9 +338,8 @@ dl.definitionListToggle dd {
 	}
 
 #bottomToolBar .path a:hover {
-	color: #CC3333;
 	text-decoration: underline;
-	}
+}
 
 #bottomToolBar .icons {
 	margin:0;
@@ -476,7 +366,6 @@ nav {
 
 #container {
 	margin: 0 auto;
-	width:952px;
 	white-space: nowrap;
 	background-color: #fff;
 	min-height: 100%;
@@ -490,7 +379,7 @@ body.frames #container {
 
 #header {
 	}
-
+/*
 #content,
 #titleBar,
 #footer  {
@@ -503,7 +392,12 @@ body.frames #container {
 	vertical-align:top;
 	margin:14px 10px 0 10px;
 	}
-
+*/
+#content{
+	display: block;
+	width: auto;
+	margin: 0;
+}
 body.frames #content {
 	margin: 0;
 	}
@@ -514,37 +408,75 @@ body.frames #content {
 	}
 
 #article {
+	font-size: 14px;
+	line-height: 1.5em;
 	float:left;
+	clear: left;
 	vertical-align:top;
-	width: 566px;
-	max-width: 566px;
-	}
-
+	width: 556px;
+	margin-right: 20px;
+}
+#frontPageTitle{
+	float:left;
+	clear: left;
+	width: 556px;
+	margin-right: 20px;
+}
+#article ul,
+#article ol{
+	margin: 0 0 10px;
+}
+#article li{
+	margin: 0 0 5px;
+}
+#article #news,
+#article .retriever_feed,
+#article table{
+	font-size: 12px;
+}
+#article table[style*="width"]{
+	width: 100% !important;
+}
 body.wholeContentWidth #article {
-	width: 730px;
-	max-width: 730px;
+	width: 100%;
 	}
 
 #aside {
-	float:right;
-	margin-left:10px;
+	float:none;
+	margin: 0 0 20px;
 	vertical-align:top;
 	clear:right;
 	width:154px;
-	max-width:154px;
-	}
-
+	overflow: hidden;
+}
 #footer {
 	clear:both!important;
 	vertical-align:top;
+}
+@media screen and (max-width: 1006px){
+	#article,
+	#frontPageTitle{
+		float: none;
+		width: auto;
+		margin: 0;
 	}
-
+	#article{
+		overflow: auto;
+		margin: 0 -20px;
+		padding: 0 20px;
+	}
+	#aside{
+		width: auto;
+		float: none;
+		clear: both;
+	}
+}
 #topHeaderIntranet .logo {
-	margin: 15px;
+	margin: 15px auto;
 	}
 
 #header #topHeaderStandard {
-	background-image:url(/ifcmtool/resource.nsf/topbg.gif);
+	background-image:url(http://intra.ifint.biz/ifcmtool/resource.nsf/topbg.gif);
 	height:72px;
 	}
 #header #topHeaderStandard .logo {
@@ -566,54 +498,6 @@ body.searchView #article table td {
 	padding:2px;
 	}
 
-/*<group=Tables and forms>*/
-
-input,
-select,
-textarea {
-	border-color: #006da7;
-	font-weight: normal;
-	padding: 1px;
-	border-width: 1px;
-	border-style:solid;
-	margin:2px;
-	}
-
-select{
-	padding-left: 2px;
-	margin:2px;
-	}
-
-input[type="button"],
-input[type="file"],
-input[type="reset"],
-input[type="submit"] {
-	padding: .2em 1em;
-	border-radius:.5em;
-	}
-input[type="button"]:hover,
-input[type="file"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	border: 1px solid #f00;
-	}
-
-input[type="radio"],
-input[type="image"] {
-	border-style:none;
-	vertical-align: middle;
-	}
-
-input[type="radio"],
-input[type="checkbox"] {
-	margin:2px 4px 2px 2px;
-	background-color: transparent;
-	}
-
-input[type="submit"] {
-	font-weight: bold;
-	}
-
 label.error {
 	display:block;
 	}
@@ -621,194 +505,8 @@ label.error {
 	border-color:red !important;
 	color:red;
 	}
-
-#blue {
-	background-color: #a8dff7;
-	text-align: left;
-	border-top: 1px solid #68cef2;
-	border-bottom: 1px solid #68cef2;
-	border-left: 1px solid #68cef2;
-	}
-
-#blue th {
-	font-size:1.1em;
-	background-color: #68cef2;
-	color: #fff;
-	font-weight:bold;
-	padding-left: .5em;
-	text-align: left;
-	padding-right: .5em;
-	border-right: 1px solid #68cef2;
-	}
-
-#blue td {
-	color: #000000;
-	border-right: 1px solid #68cef2;
-	padding: .5em;
-	}
-
-#blue input[type="submit"] {
-	border: 1px outset #68cef2;
-	background-color: #a8dff7;
-	font-weight: bold;
-	}
-
-#blue input[type="button"] {
-	border: 1px outset #68cef2;
-	background-color: #a8dff7;
-	font-weight: normal;
-	}
-
-#blue input[type="text"],#blue input,#blue textarea {
-	border: 1px solid #68cef2;
-	}
-
-#green {
-	background-color: #e2edd9;
-	text-align: left;
-	border-top: 1px solid #A0C382;
-	border-bottom: 1px solid #A0C382;
-	border-left: 1px solid #A0C382;
-	}
-
-#green th {
-	background-color: #A0C382;
-	color: #fff;
-	font-weight: bold;
-	font-size: 13px;
-	line-height: 21px;
-	height: 21px;
-	padding-left: 5px;
-	text-align: left;
-	padding-right: 5px;
-	border-right: 1px solid #A0C382;
-	}
-
-#green td {
-	font: 11px Verdana, Arial, Helvetica, sans-serif;
-	color: #000000;
-	border-right: 1px solid #A0C382;
-	padding: 5px;
-	}
-
-#green input[type="submit"] {
-	border: 1px outset #A0C382;
-	background-color: #e2edd9;
-	font-weight: bold;
-	}
-
-#green input[type="button"] {
-	border: 1px outset #A0C382;
-	background-color: #e2edd9;
-	font-weight: normal;
-	}
-
-#green input[type="text"],#green input,#green textarea {
-	border: 1px solid #A0C382;
-	}
-
-#brown {
-	background-color: #EBE5DC;
-	text-align: left;
-	border-top: 1px solid #ccb28a;
-	border-bottom: 1px solid #ccb28a;
-	border-left: 1px solid #ccb28a;
-	}
-
-#brown th {
-	background-color: #ccb28a;
-	color: #fff;
-	font-weight: bold;
-	font-size: 13px;
-	line-height: 21px;
-	height: 21px;
-	padding-left: 5px;
-	text-align: left;
-	padding-right: 5px;
-	border-right: 1px solid #ccb28a;
-	}
-
-#brown td {
-	font: 11px Verdana, Arial, Helvetica, sans-serif;
-	color: #000000;
-	border-right: 1px solid #ccb28a;
-	padding: 5px;
-	}
-
-#brown input[type="button"] {
-	border: 1px outset #ccb28a;
-	background-color: #EBE5DC;
-	font-weight: bold;
-	}
-
-#brown input[type="submit"] {
-	border: 1px outset #ccb28a;
-	background-color: #EBE5DC;
-	font-weight: normal;
-	}
-
-#brown input[type="text"],#brown input,#brown textarea {
-	border: 1px solid #ccb28a;
-	}
-
-#gray {
-	background-color: #EEEEE8;
-	text-align: left;
-	border-top: 1px solid #C8C8B4;
-	border-bottom: 1px solid #C8C8B4;
-	border-left: 1px solid #C8C8B4;
-	}
-
-#gray th {
-	background-color: #C8C8B4;
-	color: #fff;
-	font-weight: bold;
-	font-size: 13px;
-	line-height: 21px;
-	height: 21px;
-	padding-left: 5px;
-	text-align: left;
-	padding-right: 5px;
-	border-right: 1px solid #C8C8B4;
-	}
-
-#gray td {
-	font: 11px Verdana, Arial, Helvetica, sans-serif;
-	color: #000000;
-	border-right: 1px solid #C8C8B4;
-	padding: 5px;
-	}
-
-#gray input[type="submit"] {
-	border: 1px outset #C8C8B4;
-	background-color: #EEEEE8;
-	font-weight: bold;
-	}
-
-#gray input[type="button"] {
-	border: 1px outset #C8C8B4;
-	background-color: #EEEEE8;
-	}
-
-#gray input[type="text"],#gray input,#gray textarea {
-	border: 1px solid #C8C8B4;
-	}
 /*<group=FrontPage - News>*/
 
-#frontPageTitle {
-	margin: 1em auto 2em auto;
-	padding: 1.4em 2em;
-	width: 80%;
-	letter-spacing: 0.1em;
-	border-style: solid none;
-	border-color: #efefef;
-	border-width: 4px;
-	text-align: center;
-	box-sizing: border-box;
-	}
-#frontPageTitle > p {
-	margin:0;
-}
 #news ul {
 	word-wrap: normal;
 }
@@ -822,11 +520,9 @@ label.error {
 #news ul.news1,
 #news ul.news2,
 #news ul.news3 {
+	width: auto;
 	display:table-cell;
 	vertical-align: top;
-	}
-#news ul.gV {
-	border-left: 1px solid #efefef;
 	}
 #news > ul > li {
 	clear:both;
@@ -865,9 +561,9 @@ label.error {
 #news ul.news1 li.gH,
 #news ul.news2 li.gH,
 #news ul.news3 li.gH {
-	border-top: 1px solid #efefef;
-	padding-top:30px;
-	}
+/*	border-top: 1px solid #efefef;
+	padding-top:30px;*/
+}
 #news ul.news1 li.gH:first-child,
 #news ul.news2 li.gH:first-child,
 #news ul.news3 li.gH:first-child {
@@ -884,7 +580,7 @@ label.error {
 	margin:0;
 	}
 #news .rM {
-	background: url("/ifcmtool/resource.nsf/menu/leftMenuDartLeftBold.gif") no-repeat left center;
+	background: url("http://intra.ifint.biz/ifcmtool/resource.nsf/menu/leftMenuDartLeftBold.gif") no-repeat left center;
 	padding-left:.7em;
 	}
 #news time {
@@ -892,7 +588,21 @@ label.error {
 	font-size:.92em;
 	font-style: italic;
 	}
-
+	@media screen and (max-width: 700px){
+		#news ul.news1,
+		#news ul.news2,
+		#news ul.news3 {
+			display: block;
+		}
+		#news ul.news2 > li,
+		#news ul.news3 > li {
+			padding: 0;
+		}
+		.newsBottom ul.forstasidesLankar li{
+			width: auto;
+			display: block;
+		}
+	}
 /*<group=Homepage>*/
 
 .homepageVelcome {
@@ -963,48 +673,50 @@ a[href$="zip"], .icon-zip,
 .showFileTypeIcon a[href$="jpg"], .showFileTypeIcon a[href$="jpe"], .icon-jpg, .icon-jpe {
 	background-position: left center;
 	background-repeat: no-repeat;
-	padding: 2px 0 1px 18px;
+	padding: 2px 0 1px 20px;
 	}
 
-a[href$="flv"], .icon-flv { background-image: url(/ifcmtool/resource.nsf/attachicon/flv.gif);}
-a[href$="css"], .icon-css, a[href$="xml"], .icon-xml, a[href$="xsl"], .icon-xsl { background-image: url(/ifcmtool/resource.nsf/attachicon/css.gif);	}
-a[href$="doc"], .icon-doc, a[href$="rtf"], .icon-rtf { background-image: url(/ifcmtool/resource.nsf/attachicon/doc.gif);}
-a[href$="docx"], .icon-docx { background-image: url(/ifcmtool/resource.nsf/attachicon/docx.gif);}
-a[href$="eps"], .icon-eps { background-image: url(/ifcmtool/resource.nsf/attachicon/eps.gif);}
-a[href$="exe"], .icon-exe { background-image: url(/ifcmtool/resource.nsf/attachicon/exe.gif);}
-a[href$="js"], .icon-js { background-image: url(/ifcmtool/resource.nsf/attachicon/js.gif);}
-a[href$="mov"], .icon-mov, a[href$="mpg"], .icon-mpg, a[href$="mpeg"], .icon-mpeg { background-image: url(/ifcmtool/resource.nsf/attachicon/mov.gif);}
-a[href$="mp3"], .icon-mp3 { background-image: url(/ifcmtool/resource.nsf/attachicon/mp3.gif);}
-a[href$="msg"], .icon-msg { background-image: url(/ifcmtool/resource.nsf/attachicon/msg.gif);}
-a[href$="msi"], .icon-msi { background-image: url(/ifcmtool/resource.nsf/attachicon/msi.gif);}
-a[href$="ntf"], .icon-ntf { background-image: url(/ifcmtool/resource.nsf/attachicon/ntf.gif);}
-a[href$="pdf"], .icon-pdf { background-image: url(/ifcmtool/resource.nsf/attachicon/pdf.gif);}
-a[href$="pps"], .icon-pps { background-image: url(/ifcmtool/resource.nsf/attachicon/pps.gif);}
-a[href$="ppt"], .icon-ppt { background-image: url(/ifcmtool/resource.nsf/attachicon/ppt.gif);}
-a[href$="pptx"], .icon-pptx { background-image: url(/ifcmtool/resource.nsf/attachicon/pptx.gif);}
-a[href$="qxp"], .icon-qxp { background-image: url(/ifcmtool/resource.nsf/attachicon/qxp.gif);}
-a[href$="reg"], .icon-reg { background-image: url(/ifcmtool/resource.nsf/attachicon/reg.gif);}
-a[href$="sas"], .icon-sas { background-image: url(/ifcmtool/resource.nsf/attachicon/sas.gif);}
-a[href$="sit"], .icon-sit { background-image: url(/ifcmtool/resource.nsf/attachicon/sit.gif);}
-a[href$="swf"], .icon-swf { background-image: url(/ifcmtool/resource.nsf/attachicon/swf.gif);}
-a[href$="tif"], .icon-tif { background-image: url(/ifcmtool/resource.nsf/attachicon/tif.gif);}
-a[href$="txt"], .icon-txt { background-image: url(/ifcmtool/resource.nsf/attachicon/txt.gif);}
-a[href$="wmv"], .icon-wmv { background-image: url(/ifcmtool/resource.nsf/attachicon/wmv.gif);}
-a[href$="xls"], .icon-xls, a[href$="xlsm"], .icon-xlsm  { background-image: url(/ifcmtool/resource.nsf/attachicon/xls.gif);}
-a[href$="xlsx"], .icon-xlsx { background-image: url(/ifcmtool/resource.nsf/attachicon/xlsx.gif);}
-a[href$="zip"], .icon-zip { background-image: url(/ifcmtool/resource.nsf/attachicon/zip.gif);}
-.showFileTypeIcon a[href$="gif"], .showFileTypeIcon a[href$="png"], .showFileTypeIcon a[href$="emf"], .icon-gif, .icon-png, .icon-emf { background-image: url(/ifcmtool/resource.nsf/attachicon/gif.gif);}
-.showFileTypeIcon a[href$="htm"], .showFileTypeIcon a[href$="html"], .icon-htm, .icon-html { background-image: url(/ifcmtool/resource.nsf/attachicon/htm.gif);}
-.showFileTypeIcon a[href$="jpg"], .showFileTypeIcon a[href$="jpe"], .icon-jpg, .icon-jpe { background-image: url(/ifcmtool/resource.nsf/attachicon/jpg.gif);}
+a[href$="flv"], .icon-flv { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/flv.gif);}
+a[href$="css"], .icon-css, a[href$="xml"], .icon-xml, a[href$="xsl"], .icon-xsl { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/css.gif);	}
+a[href$="doc"], .icon-doc, a[href$="rtf"], .icon-rtf { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/doc.gif);}
+a[href$="docx"], .icon-docx { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/docx.gif);}
+a[href$="eps"], .icon-eps { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/eps.gif);}
+a[href$="exe"], .icon-exe { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/exe.gif);}
+a[href$="js"], .icon-js { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/js.gif);}
+a[href$="mov"], .icon-mov, a[href$="mpg"], .icon-mpg, a[href$="mpeg"], .icon-mpeg { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/mov.gif);}
+a[href$="mp3"], .icon-mp3 { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/mp3.gif);}
+a[href$="msg"], .icon-msg { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/msg.gif);}
+a[href$="msi"], .icon-msi { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/msi.gif);}
+a[href$="ntf"], .icon-ntf { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/ntf.gif);}
+a[href$="pdf"], .icon-pdf { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/pdf.gif);}
+a[href$="pps"], .icon-pps { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/pps.gif);}
+a[href$="ppt"], .icon-ppt { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/ppt.gif);}
+a[href$="pptx"], .icon-pptx { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/pptx.gif);}
+a[href$="qxp"], .icon-qxp { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/qxp.gif);}
+a[href$="reg"], .icon-reg { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/reg.gif);}
+a[href$="sas"], .icon-sas { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/sas.gif);}
+a[href$="sit"], .icon-sit { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/sit.gif);}
+a[href$="swf"], .icon-swf { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/swf.gif);}
+a[href$="tif"], .icon-tif { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/tif.gif);}
+a[href$="txt"], .icon-txt { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/txt.gif);}
+a[href$="wmv"], .icon-wmv { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/wmv.gif);}
+a[href$="xls"], .icon-xls, a[href$="xlsm"], .icon-xlsm  { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/xls.gif);}
+a[href$="xlsx"], .icon-xlsx { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/xlsx.gif);}
+a[href$="zip"], .icon-zip { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/zip.gif);}
+.showFileTypeIcon a[href$="gif"], .showFileTypeIcon a[href$="png"], .showFileTypeIcon a[href$="emf"], .icon-gif, .icon-png, .icon-emf { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/gif.gif);}
+.showFileTypeIcon a[href$="htm"], .showFileTypeIcon a[href$="html"], .icon-htm, .icon-html { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/htm.gif);}
+.showFileTypeIcon a[href$="jpg"], .showFileTypeIcon a[href$="jpe"], .icon-jpg, .icon-jpe { background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachicon/jpg.gif);}
 
 
 
 /*<group=Title Line>*/
 #titleLine {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
 	overflow: hidden;
 	background-position: left center;
 	background-repeat: no-repeat;
+	border-bottom: 1px solid #e9e9e9;
 	}
 #titleLine h1 {
 	float:left;
@@ -1015,6 +727,7 @@ a[href$="zip"], .icon-zip { background-image: url(/ifcmtool/resource.nsf/attachi
 	color:inherit;
 	}
 #titleLine hr  {
+	display: none;
 	height: 2px;
 	border: none;
 	width: 100%;
@@ -1041,7 +754,11 @@ a[href$="zip"], .icon-zip { background-image: url(/ifcmtool/resource.nsf/attachi
 	border: 1px solid #ccc;
 	display: none;
 	padding: 5px;
-	}
+	position: absolute;
+	background: #fff;
+	z-index: 2;
+	right: 0;
+}
 #titleLine em.notPublish {
 	color: red;
 	padding-left: 1em;
@@ -1056,121 +773,179 @@ a[href$="zip"], .icon-zip { background-image: url(/ifcmtool/resource.nsf/attachi
 	padding:0
 	}
 .menuTabsView  {
-	margin: 0 0 10px -10px;;
-	padding-bottom: 0;
+	margin: 0 0 20px;
+	padding: 0;
 	line-height:1.1em;
-	display:table;
-	border-spacing: 2px 0;
-	}
-body.frames .menuTabsView  {
-	margin: 0 0 10px 0;
-	}
+	display:block;
+	border-spacing: 0;
+	border-bottom: 1px solid #e9e9e9;
+	display: flex;
+	display: -ms-flexbox;
+}
+.menuTabsView:empty{
+	display: none;
+}
 .menuTabsView li {
-	display: table-cell;
+	display: inline-block;
 	list-style: none;
 	background-image:none;
-	padding: 4px;
 	margin:0;
-	border-top-width: 4px;
-	border-top-style: solid;
 	word-wrap: normal;
-	vertical-align: middle;
-	}
+	vertical-align: bottom;
+	border: 1px solid #e9e9e9;
+	background: #f9f9f9;
+	border-bottom: none;
+	position: relative;
+	margin-left: -1px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	display: flex;
+	display: -ms-flexbox;
+	-ms-flex-justify: center;
+	-ms-flex-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.menuTabsView li:first-child {
+	margin-left: 0;
+}
+.menuTabsView li a{
+	padding: 10px;
+	display: block;
+	text-align:center;
+	max-width: 160px;
+	overflow: hidden;
+	vertical-align: bottom;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
 .menuTabsView li a,
 .menuTabsView li a:visited,
 .menuTabsView li a:hover,
 .menuTabsView li a:active {
 	text-decoration: none;
-	color:#202020;
-	background-image: none;
-	padding:0;
+	color:inherit;
+}
+@media screen and (max-width:850px){
+	.menuTabsView li a{
+		padding: 10px 5px;
 	}
+}
+.menuTabsView li.selected  {
+	font-weight: bold;
+	background: none;
+	color: #000;
+	background: #fff;
+	border-top: 4px solid #999;
+/*	border: 1px solid #e9e9e9;
+	background: rgba(217, 217, 217, 0.1);*/
 
-.menuTabsGreen li  {
-	background-color: #c3dcb9;
-	border-top-color: #a7cd9b;
-	}
-.menuTabsYellow li {
-	background-color: #ffe380;
-	border-top-color: #ffd500;
-	}
-.menuTabsBrown li {
-	background-color: #e5d8c4;
-	border-top-color: #ccb28a;
-	}
-
-.menuTabsLogoBlue li {
-	background-color: #D4E6F2;
-	border-top-color: #2882BE;
-	}
-.menuTabsGray li {
-	background-color: #ccd0d5;
-	border-top-color: #a5adb6;
-	}
-.menuTabsBlue li {
-	background-color: #a8dff7;
-	border-top-color: #68cef2;
-	}
-.menuTabsBlack li {
-	background-color: #eeeee8;
-	border-top-color: #000000;
-	}
-
-.menuTabsGreen li:hover,
-.menuTabsGreen li.selected  {
-	background-color: #a7cd9b;
-	}
-.menuTabsYellow li:hover,
-.menuTabsYellow li.selected {
-	background-color: #ffd500;
-	}
-.menuTabsBrown li:hover,
-.menuTabsBrown li.selected {
-	background-color: #ccb28a;
-	}
-
-.menuTabsLogoBlue li:hover,
-.menuTabsLogoBlue li.selected {
-	background-color: #2882BE;
-	}
-.menuTabsGray li:hover,
-.menuTabsGray li.selected {
-	background-color: #a5adb6;
-	}
-.menuTabsBlue li:hover,
+}
+.menuTabsYellow li.selected  {
+  border-top-color: #ffe49c;
+}
+.menuTabsGreen li.selected {
+  border-top-color: #d0e6c3;
+}
 .menuTabsBlue li.selected {
-	background-color: #68cef2;
+  border-top-color: #b6d8df;
+}
+.menuTabsPink li.selected {
+  border-top-color: #f8c6db;
+}
+.menuTabsBrown li.selected  {
+  border-top-color: #cfac92;
+}
+.menuTabsLogoBlue li.selected  {
+  border-top-color: #083b5c;
+}
+.menuTabsGray li.selected  {
+  border-top-color: #999;
+}
+.menuTabsBlack li.selected  {
+  border-top-color: #202020;
+}
+.menuTabsView li.selected:after  {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+  left: 0;
+  right: 0;
+	border-bottom: 2px solid #fff;
+}
+@media screen and (max-width:500px){
+	.menuTabsView{
+		display: block;
 	}
-.menuTabsBlack li:hover,
-.menuTabsBlack li.selected {
-	background-color: #000000;
+	.menuTabsView li {
+		display: block;
+		border-radius: 0;
+		margin: 0;
 	}
-.menuTabsBlack li.selected a,
-.menuTabsBlack li.selected a:visited {
-	color:#fff;
+	.menuTabsView li:first-child {
+		border-radius: 4px 4px 0 0;
 	}
-.menuTabsBlack li:hover a,
-.menuTabsBlack li:active a{
-	color:#fff;
+	.menuTabsView li a{
+		max-width: none;
+		text-align:left;
+		padding: 10px 15px;
 	}
-
-
+	.menuTabsView li.selected{
+		border-top: 1px solid #999;
+		border-left: 6px solid #999;
+	}
+	.menuTabsView li.selected a{
+		padding-left: 14px;
+	}
+  .menuTabsYellow li.selected  {
+    border-top-color: #ffe49c;
+    border-left-color: #ffe49c;
+  }
+  .menuTabsGreen li.selected {
+    border-top-color: #d0e6c3;
+    border-left-color: #d0e6c3;
+  }
+  .menuTabsBlue li.selected {
+    border-top-color: #b6d8df;
+    border-left-color: #b6d8df;
+  }
+  .menuTabsPink li.selected {
+    border-top-color: #f8c6db;
+    border-left-color: #f8c6db;
+  }
+  .menuTabsBrown li.selected  {
+    border-top-color: #cfac92;
+    border-left-color: #cfac92;
+  }
+  .menuTabsLogoBlue li.selected  {
+    border-top-color: #083b5c;
+    border-left-color: #083b5c;
+  }
+  .menuTabsGray li.selected  {
+    border-top-color: #999;
+    border-left-color: #999;
+  }
+  .menuTabsBlack li.selected  {
+    border-top-color: #202020;
+    border-left-color: #202020;
+  }
+}
 #menuMainBottom {
-	margin:5px 0;
-	}
+	margin: 20px 0;
+}
 #menuMainBottom ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	line-height: 100%;
-	margin-top: 4px;
-	}
+	margin-top: 0;
+}
 
 #menuMainBottom ul li {
-	margin: 0;
-	padding: 5px 0pt 7px 15px;
+	margin: 0 0 10px;
+	padding: 0;
 	background-image:none;
-	}
+}
 #menuMainBottom a,
 #menuMainBottom a:visited,
 #menuMainBottom a:active {
@@ -1202,7 +977,7 @@ body.frames .menuTabsView  {
 
 #siteMap p a:before,
 #siteMap p span:before {
-	content:"-";
+	content:"– ";
 	}
 #siteMap p .SMdocLevel0:before {
 	content:"";
@@ -1240,7 +1015,7 @@ body.frames .menuTabsView  {
 	overflow:hidden;
 	}
 .arrowBox li {
-	background: url(/ifcmtool/resource.nsf/arrowboxbg.png) no-repeat 0 50%;
+	background: url(http://intra.ifint.biz/ifcmtool/resource.nsf/arrowboxbg.png) no-repeat 0 50%;
 	background-size: contain;
 	-moz-background-size: contain;
 	padding:2% 5% 2% 2%;
@@ -1280,22 +1055,22 @@ body.frames .menuTabsView  {
 	}
 
 .adminButtons .buttonNewSection	{background-image: url(/icons/actn030.gif)}
-.adminButtons .buttonPaste 		{background-image: url(/ifcmtool/resource.nsf/paste.gif)}
+.adminButtons .buttonPaste 		{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/paste.gif)}
 .adminButtons .buttonNewChapter {background-image: url(/icons/actn032.gif)}
 .adminButtons .buttonEdit 		{background-image: url(/icons/actn005.gif)}
-.adminButtons .buttonCut 		{background-image: url(/ifcmtool/resource.nsf/cut.gif)}
-.adminButtons .buttonCopy 		{background-image: url(/ifcmtool/resource.nsf/copy.gif)}
+.adminButtons .buttonCut 		{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/cut.gif)}
+.adminButtons .buttonCopy 		{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/copy.gif)}
 .adminButtons .buttonDelete 	{background-image: url(/icons/actn004.gif)}
-.adminButtons .buttonPreview 	{background-image: url(/ifcmtool/resource.nsf/fullscrn.gif)}
+.adminButtons .buttonPreview 	{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/fullscrn.gif)}
 .adminButtons .buttonLog 		{background-image: url(/icons/actn008.gif)}
-.adminButtons .buttonEditHtml 	{background-image: url(/ifcmtool/resource.nsf/edithtml.gif)}
-.adminButtons .buttonSave 		{background-image: url(/ifcmtool/resource.nsf/save.gif)}
+.adminButtons .buttonEditHtml 	{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/edithtml.gif)}
+.adminButtons .buttonSave 		{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/save.gif)}
 .adminButtons .buttonCancel 	{background-image: url(/icons/actn142.gif)}
-.adminButtons .buttonAttachment {background-image: url(/ifcmtool/resource.nsf/attachment.gif)}
+.adminButtons .buttonAttachment {background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/attachment.gif)}
 .adminButtons .buttonLibrary 	{background-image: url(/icons/actn119.gif)}
 .adminButtons .buttonReplace 	{background-image: url(/icons/actn090.gif)}
 .adminButtons .buttonDbFiles 	{background-image: url(/icons/actn088.gif)}
-.adminButtons .buttonMultiFileUpload{background-image: url(/ifcmtool/resource.nsf/open.gif)}
+.adminButtons .buttonMultiFileUpload{background-image: url(http://intra.ifint.biz/ifcmtool/resource.nsf/open.gif)}
 
 .adminButtons .buttonNewTemplate{background-image: url(/icons/actn093.gif)}
 .adminButtons .buttonHome{background-image: url(/icons/actn020.gif)}
@@ -1354,10 +1129,11 @@ body.mceContentBody div.yammerEmbeddedFeed {
 /*<group=FeedBack>*/
 
 #feedBackTab {
-	background-image: url("/ifcmtool/resource.nsf/feedbackOpen90deg.png");
+	background-image: url("http://intra.ifint.biz/ifcmtool/resource.nsf/feedbackOpen90deg.png");
 	background-repeat: no-repeat;
 	background-position: 100% 15px;
-	line-height: 20px;
+	background-image: none;
+	line-height: 0;
 	background-color:#EEEEE8;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
@@ -1368,7 +1144,7 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	top: 40%;
 	overflow: hidden;
 	position: fixed;
-	padding: 20px 50px 5px 5px;
+	padding: 20px 5px 10px 5px;
 	margin-right:-80px;
 	border-color: rgba(72, 78, 105, .15);
 	border-style: solid;
@@ -1385,9 +1161,22 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	width: 170px;
 	text-align: center;
 	}
-
+@media screen and (max-width:500px){
+	#feedBackTab {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		width: 100%;
+		position: static;
+		margin: 20px 0;
+		padding: 0;
+		border-radius: 4px;
+	}
+}
 .oldie #feedBackTab {
-	background-image: url("/ifcmtool/resource.nsf/feedbackOpen.png");
+	background-image: url("http://intra.ifint.biz/ifcmtool/resource.nsf/feedbackOpen.png");
 	background-position: 0 100%;
 	padding: 5px 20px 50px 5px;
 	margin-right:-20px;
@@ -1413,15 +1202,14 @@ body.mceContentBody div.yammerEmbeddedFeed {
 .feedBackBox {
 	background-color:white;
 	padding:20px;
-	border:5px solid #fff;
+	border:none;
 	position:absolute;
 	left:50%;
 	margin-left:-225px;
 	top:25%;
 	width:400px;
 	display:none;
-	display:none;
-	border-radius:25px;
+	border-radius:2px;
 	z-index: 2;
 	}
 
@@ -1465,11 +1253,12 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	}
 
 #feedBackOpacity {
-	background-color:#ccc;
+	background-color: #333;
 	width:100%;
 	height:100%;
-	opacity:.8;
+	opacity:.7;
 	position:absolute;
+	position:fixed;
 	left:0;
 	top:0;
 	z-index:1;
@@ -1477,8 +1266,9 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	}
 
 .oldie #feedBackOpacity {
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)" !important;
-	filter: alpha(opacity=80);
+	background: #333;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)" !important;
+	filter: alpha(opacity=70);
 	}
 
 #feedBackForm fieldset {
@@ -1488,7 +1278,6 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	font-size: 1.5em;
 	line-height:1.5em;
 	color: #333333;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 	margin-bottom: 0.5em;
 	}
 #feedBackForm label {
@@ -1510,10 +1299,7 @@ body.mceContentBody div.yammerEmbeddedFeed {
 
 #feedBackForm select{
 	margin-bottom: 15px;
-	padding:4px 15px;
-	border-color:#c8c8b4;
-	border-radius:2px;
-	}
+}
 
 #feedBackForm .praiseLabel span {
 	background-image: url("feedbackPraise.png");
@@ -1533,14 +1319,12 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	}
 
 #feedBackForm textarea {
-	border:3px solid #68cef2;
-	height: 150px;
-	width: 96%;
-	border-radius:10px;
+	height: 90px;
+	width: 100%;
+	box-sizing: border-box;
 	padding:5px;
 	margin: 15px 0;
-	}
-
+}
 #feedBackForm .nameLabel,
 #feedBackForm .principalLabel {
 	width:70px;
@@ -1599,7 +1383,7 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	}
 
 #returnErrorPage h1 {
-	background-image: url("/ifcmtool/resource.nsf/logo.gif");
+	background-image: url("http://intra.ifint.biz/ifcmtool/resource.nsf/logo.gif");
 	background-position: 0% 50%;
 	background-repeat: no-repeat;
 	height: 60px;
@@ -1609,7 +1393,7 @@ body.mceContentBody div.yammerEmbeddedFeed {
 
 #conflictAlert {
 	font-size:1.25em;
-	background-image:url("/ifcmtool/resource.nsf/europeiske/alert.jpg");
+	background-image:url("http://intra.ifint.biz/ifcmtool/resource.nsf/europeiske/alert.jpg");
 	background-repeat:no-repeat;
 
 	padding:10px 10px 10px 80px;
@@ -1628,7 +1412,7 @@ body.mceContentBody div.yammerEmbeddedFeed {
 
 /* Contain floats: h5bp.com/q */
 .clearfix:before, .clearfix:after,
-#header:before, #nav:before, #content:before, .menuTreeView:before, #menuMainBodyBottom:before,
+#header:before, #content:before, .menuTreeView:before, #menuMainBodyBottom:before,
 #header:after, #nav:after, #content:after, .menuTreeView:after, #menuMainBodyBottom:after {
 	content: ""; display: table; }
 .clearfix:after,

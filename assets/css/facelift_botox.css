@@ -1,3 +1,6 @@
+@import url('fonts.css');
+@import url('icons.css');
+@import url('form.css');
 html{}
 body{
   font-size: 87.5%;

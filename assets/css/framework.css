@@ -9,14 +9,22 @@ html{
   margin: 0;
 }
 body{
-  font-size: 87.5%;
+  /*font-size: 87.5%;*/
+  font-size: 75%;
   font-family: 'Open Sans', 'Arial', sans-serif;
   padding: 0;
   margin: 0;
   width: auto;
+  background: none;
+  overflow-x: hidden;
 }
-body.noframes,
-body.oldie{
+@media screen and (max-width:1030px){
+  body{
+    overflow: auto;
+  }
+}
+body.oldie,
+body.noframes{
   background: none;
 }
 a,
@@ -27,12 +35,37 @@ a:visited{
 a:hover{
   text-decoration: underline;
 }
+p:empty{
+  display: none;
+}
 h1,h2{
+  font-family: 'Open-sans',Arial, sans-serif;
   font-size: 30px;
   margin: 0 0 0.5em;
+  color: inherit;
+  padding: 0;
+}
+br + br{
+  display: none;
 }
 h2{
   font-size: 20px;
+}
+[style*="verdana"],
+[style*="Verdana"],
+[style*="VERDANA"],
+font{
+  font: inherit !important;
+}
+[style*="font-size: 10px"],
+[style*="font-size:10px"],
+[style*="font-size: 11px"],
+[style*="font-size:11px"],
+[style*="font-size: small"],
+[style*="font-size:small"],
+[style*="x-small"],
+[style*="xx-small"]{
+  font-size: 12px !important;
 }
 p{
   margin: 0 0 1em;
@@ -40,6 +73,17 @@ p{
 img{
   border: none;
   max-width: 100%;
+  height: auto;
+}
+hr{
+  box-sizing: content-box;
+  height: 1px;
+  border: none;
+  background-color: #ccc;
+  margin: 15px 0;
+}
+td img[width]{
+  max-width: none;
 }
 table {
 	border-collapse: separate;
@@ -69,7 +113,6 @@ input[readonly] {
   overflow: hidden;
   font-family: "Open Sans",Arial,sans-serif;
   line-height: 1.575em;
-  font-size: 14px;
   color: #333;
 }
 .page-header{
@@ -124,9 +167,8 @@ input[readonly] {
 }
 
 .page-header-search input:focus,
-#searchForm input{
+#searchForm input:focus{
   border-color: #a5a5a5;
-  width: 200px;
 }
 .page-header-search [type=submit],
 #searchForm #searchSubmit{
@@ -153,7 +195,7 @@ input[readonly] {
 }
 .page-header-search [type=submit]:before,
 #searchForm #searchSubmit:before{
-  content: "\e003";
+  content: "\e61f";
   font-family: "If-icons";
   position: absolute;
   top: 0;
@@ -162,6 +204,7 @@ input[readonly] {
   height: 100%;
   line-height: 26px;
   text-indent: 0;
+  vertical-align: middle;
 }
 .main-navigation{
 
@@ -238,26 +281,34 @@ input[readonly] {
 	margin:0;
   padding: 0;
   display: block;
-  width: auto;
+  float: left;
+  padding-right: 20px;
+  width: 200px;
 }
 #navLeftMenu ul{
   list-style: none;
   margin: 0;
+  background: none;
 }
-/**@media screen and (min-width:600px){**/
+#nav,
+#navLeftMenu{
+
+}
+@media screen and (max-width:700px){
   #nav,
   #navLeftMenu{
-    float: left;
-    padding-right: 20px;
-    width: 170px;
+    width: 140px;
   }
-/**}
-@media screen and (min-width:800px){**/
+}
+@media screen and (max-width:500px){
   #nav,
   #navLeftMenu{
-    width: 220px;
+    float: none;
+    width: auto;
+    padding: 0;
+    margin: 0 0 20px;
   }
-/**}**/
+}
 #embedded,
 #content{
   overflow: hidden;
@@ -267,6 +318,11 @@ input[readonly] {
 #navLeftMenu a{
   text-decoration: none;
   color: #202020;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#navLeftMenu ul li a{
+  font: inherit;
 }
 #nav .dbTitle{
   padding: 10px 20px;
@@ -275,7 +331,7 @@ input[readonly] {
   display: block;
   margin: -10px -20px;
   padding: 10px 20px;
-  font-size: 14.5px;
+  font-size: 14px;
 }
 
 #navLeftMenu ul.leftMenuLinks,
@@ -316,7 +372,7 @@ input[readonly] {
 .menuTreeView .l2 a,
 #navLeftMenu ul.leftMenuLinks li li li a{
   padding-left: 30px;
-  border-bottom-color: #d0d0d0;
+  border-bottom: none;
   color: #595959;
   background-color: #e7e7e7;
 }
@@ -336,28 +392,24 @@ input[readonly] {
 .menuTreeView .ssel > a{
   font-weight: bold;
 }
-
+.menuTreeView li.ex a,
+.menuTreeView li.co a{
+  padding-right: 30px;
+}
 .menuTreeView .ex > a:before,
 .menuTreeView .co > a:before{
-  content: "\e016"; /* Arrow-down */
+  content: "\e60d"; /* Arrow-down */
   font-family: "If-icons";
+  font-weight: bold;
   speak: none;
   position: absolute;
   font-size: 12px;
   width: 1em;
   right: 1em;
   text-align:center;
+  top: 50%;
+  margin-top: -0.5em;
 }
 .menuTreeView .co > a:before{
-  content: "\e013"; /* Arrow-up*/
-}
-#nav .hidden {
-	display:none;
-}
-#nav .dbTitle {
-	background-repeat: no-repeat;
-	background-position: .25em 0.6em;
-  padding: 10px 20px;
-  background: #ffe49c;
-  border-bottom: 1px solid #d9d9d9;
+  content: "\e610"; /* Arrow-up*/
 }
