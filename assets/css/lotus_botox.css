@@ -34,11 +34,13 @@ header .table{
 }
 #navBA > ul > li{
   margin: 0 5px;
+  display: inline-block;
 }
 
 #navBA > ul > li > span > a{
   font: inherit;
   min-width: 0;
+  line-height: 30px;
   font-size: 16px;
   color: #999;
 }
@@ -113,7 +115,7 @@ header .table{
 #navCommonLinks{
   position: absolute;
   top: 0;
-  right: 10px;
+  right: 0;
   color: #000;
   text-align: right;
   margin: 0;
@@ -143,7 +145,7 @@ header .table{
   margin: 0;
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 0;
   color: #000;
 }
 #navTopLinks ul,
@@ -173,6 +175,9 @@ header .table{
 #coLinks li{
   margin: 0;
 }
+#coLinks ul li:first-child{
+  margin-left: 0;
+}
 #coLinks ul li a{
   font: inherit;
   color: #ccc;
@@ -186,11 +191,11 @@ header .table{
   right: 0;
   margin: 20px 0;
   height: auto;
-  max-width: 250px;
+  max-width: 200px;
 }
 #logo{
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 10px;
   max-width: 50px;
   height: auto;
   padding: 0;
@@ -202,6 +207,7 @@ header .table{
   #coLinks,
   #searchForm{
     margin: 0;
+    top: 0;
   }
   #container > header:before,
   #navTopLinks{
@@ -497,10 +503,11 @@ header .table{
 }
 #titleLine h1,
 #frontPageTitle h1{
-  font-family: 'GarageGothic-Bold', 'Open-sans', arial, sans-serif;
+  font-family: 'GarageGothic-Bold', impact, sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 1;
+  font-weight: 100;
 }
 #frontPageTitle h1{
   font-size: 35px;
@@ -575,7 +582,7 @@ header .table{
 }
 #attachmentTable h1,
 .infobox h1{
-/*  font-family: 'GarageGothic-Bold', 'Open-sans', arial, sans-serif;
+/*  font-family: 'GarageGothic-Bold', impact, sans-serif;
   text-transform: uppercase;
   line-height: 1;
   font-size: 25px;*/
@@ -667,12 +674,17 @@ header .table{
 #content .contentLinks dl dd ul{
   letter-spacing: -4px;
   margin: -1%;
-  display: ms-flexbox;
-  -ms-flex-flow: row wrap;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  flex-flow: row wrap;
+  -ms-flex-flow: wrap;
+  -webkit-flex-flow: wrap;
+  flex-flow: wrap;
 }
 #content .contentLinks dl dd ul li:nth-child(2n){
+  margin: 1%;
+}
+#content .contentLinks dl dd ul li.slvzr-nth-child402n41{
   margin: 1%;
 }
 #content .contentLinks dl dd ul li{
@@ -689,12 +701,14 @@ header .table{
   letter-spacing: 0;
   vertical-align: top;
   box-sizing: border-box;
-  -ms-flex-basis: 48%;
-  -ms-flex: 1 0 48%;
-  -ms-flex-grow: 1;
-  -ms-flex-shrink: 0;
+  -ms-flex-preferred-size: 45%;
+  -webkit-flex-basis: 48%;
   flex-basis: 48%;
+  -ms-flex-positive: 1;
+  -webkit-flex-grow: 1;
   flex-grow: 1;
+  -ms-flex-negative: 0;
+  -webkit-flex-shrink: 0;
   flex-shrink: 0;
 }
 @media screen and (max-width:750px){
@@ -723,6 +737,10 @@ header .table{
 }
 #content .contentLinks dl dd ul li p.link a:after{
   content: none;
+}
+#feedBackForm form{
+  margin: -20px;
+  padding: 20px;
 }
 #feedBackForm fieldset{
   padding: 0;
@@ -771,7 +789,15 @@ header .table{
   text-align: center;
   margin: -10px;
 }
-
+#feedBackForm .feedBackCloseX:after{
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
 .icons a{
   color: #999;
 }
@@ -815,13 +841,21 @@ header .table{
 }
 
 #news .rM{
+  padding-left: 0;
+  margin-left: 10px;
   background: none !important;
+  position: relative;
 }
 #news .rM:before{
   content: "\e60f";
   color: inherit;
-  font-size: 0.7em;
-  margin-left: -1em;
+  line-height: inherit;
+  vertical-align: baseline;
+  font-size: 10px;
+  left: -10px;
+  position: absolute;
+  width: 10px;
+  text-decoration: none;
 }
 
 

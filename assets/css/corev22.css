@@ -225,7 +225,7 @@ dl.definitionListToggle dt:after{
 	font-family: "if-icons";
 	content: "\e610";
   speak: none;
-  color: #999;
+  color: #666;
   font-size: 20px;
   font-style: normal;
   font-weight: normal;
@@ -307,16 +307,6 @@ dl.definitionListToggle dt + dd {
  	clear: both;
 	padding-top: 30px;
 }
-#footer hr  {
-	border-style: solid none none none;
-	border-width:1px 0 0 0;
-	border-top-color: #efefef;
-	height: 1px;
-	width: 100%;
-	margin-top: 10px;
-	padding:0;
-	clear:both;
-	}
 
 #bottomToolBar {
 	display: table;
@@ -779,8 +769,10 @@ a[href$="zip"], .icon-zip { background-image: url(http://intra.ifint.biz/ifcmtoo
 	display:block;
 	border-spacing: 0;
 	border-bottom: 1px solid #e9e9e9;
+  display: -ms-flexbox;
 	display: flex;
-	display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 .menuTabsView:empty{
 	display: none;
@@ -796,7 +788,7 @@ a[href$="zip"], .icon-zip { background-image: url(http://intra.ifint.biz/ifcmtoo
 	background: #f9f9f9;
 	border-bottom: none;
 	position: relative;
-	margin-left: -1px;
+	margin-right: -1px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	display: flex;
@@ -805,9 +797,6 @@ a[href$="zip"], .icon-zip { background-image: url(http://intra.ifint.biz/ifcmtoo
 	-ms-flex-align: center;
   justify-content: center;
   align-items: center;
-}
-.menuTabsView li:first-child {
-	margin-left: 0;
 }
 .menuTabsView li a{
 	padding: 10px;
@@ -1153,11 +1142,11 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	text-decoration: none;
 	border-radius: 0 0 4px 4px;
 	letter-spacing:1px;
-	-webkit-transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;
+	/*-webkit-transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;
 	-moz-transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;
 	-ie-transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;
 	 -o-transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;
-	    transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;
+	    transition: all .7s cubic-bezier(0.42, 0, 1, 1) 0;*/
 	width: 170px;
 	text-align: center;
 	}
@@ -1206,7 +1195,7 @@ body.mceContentBody div.yammerEmbeddedFeed {
 	position:absolute;
 	left:50%;
 	margin-left:-225px;
-	top:25%;
+	top:100px;
 	width:400px;
 	display:none;
 	border-radius:2px;
